@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VMCPI FormatVersion="1">
+	<config>
+		<!-- <CarServerIP CarServerIP="127.0.0.1" /> -->
+		<!-- MessageSendService defines your phy module to transmit messages -->
+		<MessageSendService MessageSendService="UDM" />
+		<!-- Below both the timers should be in seonds -->
+		<NeighborTableEntryTimer NeighborTableEntryTimer="2" />
+		<BeaconInterval BeaconInterval="1" />
+		<UpdateToAPInterval UpdateToAPInterval="1" />
+		<DefaultClusterManager DefaultClusterManager="BS1" />
+		<ClusterManagerExpiryTimer ClusterManagerExpiryTimer="2" />
+		<ClusterStateExpireTimer ClusterStateExpireTimer="6" />
+
+	</config>
+</VMCPI>
+

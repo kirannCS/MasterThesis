@@ -1,0 +1,12 @@
+
+message CARCLUSTERINFORESPONSE {
+	optional string CLUSTER_STATE = 1;
+        optional bool IS_CLUSTER_HEAD = 2;
+	optional string CH = 3;
+	optional string CLUSTER_ID = 4;
+        optional string CM_LIST = 5;
+	optional string CLUSTER_MANAGER = 6;
+	optional string DEFAULT_MANAGER = 7;
+	optional int64 CLUSTER_SEQ_NUM = 8;
+}
+

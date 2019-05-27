@@ -1,0 +1,4 @@
+message CARCLUSTERINFOREQ {
+	required string REQTYPE = 1;
+
+}

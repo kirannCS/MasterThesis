@@ -1,0 +1,3 @@
+<routes>
+    <vType id="car0" accel="2.6" decel="4" sigma="0.35" length="4" minGap="1" maxSpeed="13.41" tau="0.5" vClass="passenger" guiShape="passenger" lenghtSigma="0" maxSpeedSigma="0" probability="1.0"/>
+</routes>

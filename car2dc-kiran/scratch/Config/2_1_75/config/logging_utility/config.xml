@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VMCPI FormatVersion="1">
+    <config>
+        <Tool name="LogInfo" LogInfoEnable="FALSE" LogInfoFile="TRUE" LogInfoStdOutput="FALSE"  />
+        <Tool name="LogDebug" LogDebugEnable="FALSE" LogDebugFile="TRUE" LogDebugStdOutput="FALSE" />
+        <Tool name="LogStats" LogStatsEnable="TRUE" LogStatsFILE="TRUE" LogStatsStdOutput="FALSE" />
+        <Tool name="LogError" LogErrorEnable="TRUE" LogErrorFILE="TRUE" LogErrorStdOutput="FALSE" />
+	<Tool name="path" LogFilePath="../results/logs/" />
+	<Tool name="ExperimentNum" ExperimentNumber="24" />
+    </config>
+</VMCPI>
+

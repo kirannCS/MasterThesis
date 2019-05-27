@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VMCPI FormatVersion="1">
+	<config>
+		<STREET StreetMargin="20" StreetLength="150" Lanes="3" />
+		<INTERSECTION X="10" Y="10" />
+		<CARS TotalCars="510" />
+		<IPINFO IP="131.234.121.214" Port="4000" />
+	</config>
+</VMCPI>
+

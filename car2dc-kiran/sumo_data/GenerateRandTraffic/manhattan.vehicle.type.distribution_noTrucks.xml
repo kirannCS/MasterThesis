@@ -1,0 +1,6 @@
+<routes>
+    <vType id="car0" accel="2.6" decel="4" sigma="0.35" length="4" minGap="1" maxSpeed="33.8" tau="0.5" vClass="passenger" guiShape="passenger" lenghtSigma="0.3" maxSpeedSigma="3.5" probability="0.475"/>
+    <vType id="car1" accel="2.4" decel="4" sigma="0.55" length="4.7" minGap="1" maxSpeed="33.1" tau="0.5" vClass="passenger" guiShape="passenger/van" lenghtSigma="0.5" maxSpeedSigma="2.5" probability="0.175"/>
+	<vType id="car2" accel="2.4" decel="4" sigma="0.55" length="4.7" minGap="1" maxSpeed="13.1" tau="0.5" vClass="passenger" guiShape="passenger/van" lenghtSigma="0.5" maxSpeedSigma="2.5" probability="0.175"/>
+	<vType id="car3" accel="2.4" decel="4" sigma="0.55" length="4.7" minGap="1" maxSpeed="23.1" tau="0.5" vClass="passenger" guiShape="passenger/van" lenghtSigma="0.5" maxSpeedSigma="2.5" probability="0.175"/>
+</routes>

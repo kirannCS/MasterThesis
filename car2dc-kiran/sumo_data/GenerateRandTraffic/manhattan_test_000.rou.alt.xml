@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Mar  1 15:27:52 2017 by SUMO duarouter Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="manhattan_test.net.xml"/>
+        <route-files value="manhattan_test.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="manhattan_test_000.rou.xml"/>
+        <exit-times value="false"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="false"/>
+        <max-alternatives value="5"/>
+        <with-taz value="false"/>
+        <routing-algorithm value="dijkstra"/>
+        <weights.expand value="true"/>
+        <gawron.beta value="0.9"/>
+        <gawron.a value="0.5"/>
+        <keep-all-routes value="false"/>
+        <logit value="false"/>
+        <logit.beta value="0.15"/>
+        <logit.gamma value="1"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="100"/>
+    </time>
+
+    <report>
+        <verbose value="false"/>
+        <no-warnings value="false"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <random value="false"/>
+    </random_number>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="car1_73" length="4.70" minGap="1.00" maxSpeed="12.76" probability="0.00" vClass="passenger" guiShape="passenger/van">
+        <carFollowing-Krauss accel="2.40" decel="4.00" sigma="0.55"/>
+    </vType>
+    <vehicle id="0" type="car1_73" depart="0.00" departLane="best" departPos="random" departSpeed="random">
+        <routeDistribution last="0">
+            <route cost="131.58" probability="1.00000000" edges="left0to0/0 0/0to1/0 1/0to2/0 2/0to3/0 3/0to4/0 4/0to5/0 5/0to6/0 6/0to7/0 7/0to8/0 8/0to9/0 9/0to10/0 10/0to11/0 11/0to12/0 12/0to13/0 13/0to14/0 14/0to15/0 15/0to16/0 16/0to17/0 17/0to18/0 18/0to19/0 19/0to20/0 20/0to21/0 21/0to22/0 22/0to23/0 23/0to24/0 24/0to25/0 25/0to26/0 26/0to27/0 27/0to28/0 28/0to29/0 29/0toright0"/>
+        </routeDistribution>
+    </vehicle>
+    <vType id="car1_117" length="4.70" minGap="1.00" maxSpeed="16.95" probability="0.00" vClass="passenger" guiShape="passenger/van">
+        <carFollowing-Krauss accel="2.40" decel="4.00" sigma="0.55"/>
+    </vType>
+    <vehicle id="1" type="car1_117" depart="0.00" departLane="best" departPos="random" departSpeed="random">
+        <routeDistribution last="0">
+            <route cost="120.79" probability="1.00000000" edges="left2to0/2 0/2to1/2 1/2to2/2 2/2to3/2 3/2to4/2 4/2to5/2 5/2to6/2 6/2to7/2 7/2to8/2 8/2to9/2 9/2to10/2 10/2to11/2 11/2to12/2 12/2to13/2 13/2to14/2 14/2to15/2 15/2to16/2 16/2to17/2 17/2to18/2 18/2to19/2 19/2to20/2 20/2to21/2 21/2to22/2 22/2to23/2 23/2to24/2 24/2to25/2 25/2to26/2 26/2to27/2 27/2to28/2 28/2to29/2 29/2toright2"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

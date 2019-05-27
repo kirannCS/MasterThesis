@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VMCPI FormatVersion="1">
+	<config>
+		<TASK_INTERVAL task_interval="3" />
+		<TASK_COMPLETIONTIME task_mintime="200" task_maxtime="300" />
+		<!--<CLUSTER_ALGORITHM clust_algo="MapBased" clust_interval="5" entrytimer="2"/>-->
+	</config>
+</VMCPI>
+

@@ -1,0 +1,4 @@
+message MTSPEEDRESPONSE {
+	required bool INFO_EXISTS = 1;
+	optional double SPEED = 2;
+}

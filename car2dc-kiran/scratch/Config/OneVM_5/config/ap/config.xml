@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VMCPI FormatVersion="1">
+	<config>
+		<BS id="BS1" ip="131.234.121.201" port="8000" x="350.0" y="350.0" />
+		<!-- <BS id="BS1" ip="131.234.121.214" port="8000" x="350.0" y="350.0" /> -->
+		<!--<RSU id="RSU1" ip="131.234.28.15" port="7000" x="622.0" y="918.0" /> -->
+		<CLUSTER_ALGORITHM clust_algo="MapBased" clust_interval="5" entrytimer="2"/>
+		<MICROCLOUD id="MC1" x="622" y="918" lanes="6/12to5/12_0" manager="BS1" mc_radius="150.0"/>
+		<!--<MICROCLOUD id="MC2" x="120" y="120" lanes="" manager="BS1" mc_radius="150.0"/>-->
+	</config>
+</VMCPI>
+

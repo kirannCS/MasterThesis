@@ -1,0 +1,9 @@
+import "BigData.proto";
+
+message MESSAGEFROMUDM {
+	optional string SRC_ID = 1;
+	optional ALLDATA DATA = 2;
+	optional string SRC_TYPE = 3;
+	optional string DEST_TYPE = 4;
+	optional bool EXIT = 5;
+}

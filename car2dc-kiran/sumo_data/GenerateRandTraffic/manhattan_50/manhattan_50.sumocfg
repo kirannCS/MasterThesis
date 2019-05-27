@@ -1,0 +1,16 @@
+<configuration>
+    <input>
+        <net-file value="manhattan_50.net.xml"/>
+        <route-files value="manhattan_50.rou.xml"/>
+        <additional-files value="manhattan_50.add.xml manhattan_50.poly.xml"/>
+		<!-- <additional-files value="manhattan_50.poly.xml"/> -->
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+        <step-length value="0.1"/>
+		<start value="true"/>   
+    </time>
+	<max-num-vehicles>50</max-num-vehicles>
+	<max-depart-delay>0</max-depart-delay>
+</configuration>

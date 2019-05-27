@@ -1,0 +1,7 @@
+<launch>
+  <copy file="manhattan.net.xml"/>
+  <copy file="manhattan-800.rou.xml"/>
+  <copy file="manhattan-800.add.xml"/>
+  <copy file="manhattan-800.sumocfg" type="config"/>
+  <copy file="gui-settings.xml"/>
+</launch>

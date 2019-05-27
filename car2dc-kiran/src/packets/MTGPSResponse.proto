@@ -1,0 +1,7 @@
+message MTGPSRESPONSE {
+	required bool INFO_EXISTS = 1;
+	optional double X = 2;
+	optional double Y = 3;
+	optional double DIR = 4;
+	optional string LANE = 5;
+}

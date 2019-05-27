@@ -1,0 +1,7 @@
+<launch>
+	<copy file="manhattan_200.net.xml" />
+	<copy file="manhattan_200.rou.xml" />
+	<copy file="manhattan_200.add.xml" />
+	<copy file="manhattan_200.poly.xml" />
+	<copy file="manhattan_200.sumocfg" type="config" />
+</launch>

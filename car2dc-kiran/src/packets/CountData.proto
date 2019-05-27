@@ -1,0 +1,10 @@
+message VISUALSDATA {
+	optional string SRCTYPE = 1;
+	optional string SRCID = 2;
+	optional int64 DATACOUNT = 3;
+	optional string MESSAGETYPE = 4;
+	optional int64 TOTALSUBTASKS = 5;
+	optional int64 TOTALSUBTASKSRESULTS = 6;
+	optional int64 TOTALSUBTASKSCOMPUTED = 7;
+
+}

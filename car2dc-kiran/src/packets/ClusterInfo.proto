@@ -1,0 +1,11 @@
+message CLUSTERINFO {
+	optional string DATALINE1 =1;
+	optional string DATALINE2 =2;
+	optional string CH = 3;
+	optional string CMLIST = 4;
+	optional string CLUSTERID = 5;
+	optional string DATATYPE = 6;
+	optional string SRC_ID = 7;
+	optional int64 CLUSTER_SEQ_NUM = 8;
+}
+	

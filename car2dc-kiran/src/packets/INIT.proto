@@ -1,0 +1,8 @@
+message INIT {
+	required string MTYPE = 1;
+	required string SRC_ID = 2;
+	optional string IP = 3;
+	optional string PORT = 4;
+	optional string SRC_TYPE = 5;
+	optional string DATA = 6;
+}

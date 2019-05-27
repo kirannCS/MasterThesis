@@ -1,0 +1,43 @@
+> Executing step 0
+>> Running router on manhattan_test.rou.xml
+>>> Begin time: 2017-03-01 15:27:52.804399
+>>> End time: 2017-03-01 15:27:52.891212
+>>> Duration: 0:00:00.086813
+<<
+>> Running simulation
+>>> Begin time: 2017-03-01 15:27:52.891336
+>>> End time: 2017-03-01 15:27:53.034872
+>>> Duration: 0:00:00.143536
+<<
+< Step 0 ended (duration: 0:00:00.230701)
+------------------
+
+> Executing step 1
+>> Running router on manhattan_test_000.rou.alt.xml
+>>> Begin time: 2017-03-01 15:27:53.036909
+>>> End time: 2017-03-01 15:27:53.123338
+>>> Duration: 0:00:00.086429
+<<
+>> Running simulation
+>>> Begin time: 2017-03-01 15:27:53.123474
+>>> End time: 2017-03-01 15:27:53.268248
+>>> Duration: 0:00:00.144774
+<<
+< Step 1 ended (duration: 0:00:00.231554)
+------------------
+
+> Executing step 2
+>> Running router on manhattan_test_001.rou.alt.xml
+>>> Begin time: 2017-03-01 15:27:53.270342
+>>> End time: 2017-03-01 15:27:53.365645
+>>> Duration: 0:00:00.095303
+<<
+>> Running simulation
+>>> Begin time: 2017-03-01 15:27:53.365812
+>>> End time: 2017-03-01 15:27:53.526853
+>>> Duration: 0:00:00.161041
+<<
+< Step 2 ended (duration: 0:00:00.256728)
+------------------
+
+dua-iterate ended (duration: 0:00:00.724594)

@@ -1,0 +1,6 @@
+message CARGPSRESPONSETOINCAR {
+	required bool CAREXISTS = 1;
+	optional double X = 2;
+	optional double Y = 3;
+	optional double Dir = 4;
+}	

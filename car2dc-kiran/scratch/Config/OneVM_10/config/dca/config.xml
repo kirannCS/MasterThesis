@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VMCPI FormatVersion="1">
+	<config>
+		<CMDataUpdateInterval CMDataUpdateInterval="2"/>
+		<APDataUpdateInterval APDataUpdateInterval="4" />
+		<DataSize DataSize="10" />
+		<ChunkSize ChunkSize="1" />
+		<DataFilePath DataFilePath="../results/data_files/" />
+		<CHReceivedDataFilePath CHReceivedDataFilePath="../results/ch_received_files/" />
+		<CHGeneratedDataFilePath CHGeneratedDataFilePath="../results/ch_generated_files/" />
+		<APDataFilePath APDataFilePath="../results/ap_received_files/" />
+		<AggregationRequired AggregationRequired="0" />
+		<AggregationPercentage AggregationPercentage="75" />
+	</config>
+</VMCPI>
+

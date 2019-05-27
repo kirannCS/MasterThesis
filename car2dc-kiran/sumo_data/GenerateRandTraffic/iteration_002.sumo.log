@@ -1,0 +1,3 @@
+Loading net-file from 'manhattan_test.net.xml'...  done (57ms).
+Error: The route file 'manhattan_test_002.rou.xml' is not accessible.
+Quitting (on error).

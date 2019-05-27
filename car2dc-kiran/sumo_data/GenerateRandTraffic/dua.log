@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+['/home/klingler/software/sumo-0.25.0/sumo-sommer/sumo/bin/duarouter', '-c', 'iteration_000_manhattan_test.duarcfg']
+Loading configuration... done.
+Success.
+-------------------------------------------------------------------------------
+['/home/klingler/software/sumo-0.25.0/sumo-sommer/sumo/bin/sumo', '-c', 'iteration_000.sumocfg']
+Loading configuration... done.
+Loading net-file from 'manhattan_test.net.xml'...  done (78ms).
+Loading additional-files from 'dua_dump_000.add.xml'...  done (1ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 100.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 8ms
+ Real time factor: 12500
+ UPS: 25000.000000
+Vehicles: 
+ Inserted: 2
+ Running: 2
+ Waiting: 0
+
+-------------------------------------------------------------------------------
+['/home/klingler/software/sumo-0.25.0/sumo-sommer/sumo/bin/duarouter', '-c', 'iteration_001_manhattan_test_000.duarcfg']
+Loading configuration... done.
+Success.
+-------------------------------------------------------------------------------
+['/home/klingler/software/sumo-0.25.0/sumo-sommer/sumo/bin/sumo', '-c', 'iteration_001.sumocfg']
+Loading configuration... done.
+Loading net-file from 'manhattan_test.net.xml'...  done (85ms).
+Loading additional-files from 'dua_dump_001.add.xml'...  done (1ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 100.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 9ms
+ Real time factor: 11111.1
+ UPS: 22222.222222
+Vehicles: 
+ Inserted: 2
+ Running: 2
+ Waiting: 0
+
+-------------------------------------------------------------------------------
+['/home/klingler/software/sumo-0.25.0/sumo-sommer/sumo/bin/duarouter', '-c', 'iteration_002_manhattan_test_001.duarcfg']
+Loading configuration... done.
+Success.
+-------------------------------------------------------------------------------
+['/home/klingler/software/sumo-0.25.0/sumo-sommer/sumo/bin/sumo', '-c', 'iteration_002.sumocfg']
+Loading configuration... done.
+Loading net-file from 'manhattan_test.net.xml'...  done (91ms).
+Loading additional-files from 'dua_dump_002.add.xml'...  done (1ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 100.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 8ms
+ Real time factor: 12500
+ UPS: 25000.000000
+Vehicles: 
+ Inserted: 2
+ Running: 2
+ Waiting: 0
+

@@ -1,0 +1,10 @@
+Loading net-file from 'manhattan_test.net.xml'...  done (57ms).
+Loading additional-files from 'dua_dump_001.add.xml'...  done (1ms).
+Loading done.
+Simulation started with time: 0.00
+Warning: Environment variable SUMO_HOME is not set, schema resolution will use slow website lookups.
+Error: unable to resolve host/address 'sumo.dlr.de'
+ In file 'manhattan_test_001.rou.xml'
+ At line/column 1/0.
+
+Quitting (on error).

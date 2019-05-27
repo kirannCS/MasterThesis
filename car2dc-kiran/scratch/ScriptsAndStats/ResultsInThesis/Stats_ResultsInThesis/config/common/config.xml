@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VMCPI FormatVersion="1">
+	<config>
+		<ParserIP ParserIP="131.234.28.24" />
+		<ParserPort ParserPort="5555" />
+		<UDMPort UDMPort="6666" />
+		<SumoFloatingDataPath SumoFloatingDataPath="../sumo_data/manhattan/mini.rou.xml" />
+		<CommRange CommRange="300" />
+		<RunInForeGround RunInForeGround="FALSE" />
+		<!-- Each ID in the the value of RunInForeGroundList should be given space before and after -->
+		<RunInForeGroundList RunInForeGroundList="  " />
+		<!-- <IPList IPList="192.168.232.131 127.0.0.1" /> -->
+		 <IPList IPList="131.234.28.25 131.234.28.26 131.234.28.27 131.234.28.28 131.234.28.29" /> 
+<!-- 		 <IPList IPList="131.234.28.25 131.234.28.26 131.234.28.27 131.234.28.28 131.234.28.29 131.234.28.30 131.234.28.31 131.234.28.32 131.234.28.33 131.234.29.57 131.234.29.58 131.234.29.59 131.234.29.60 131.234.29.61 131.234.28.22 131.234.28.23" /> -->
+<!--		<IPList IPList="131.234.28.25 131.234.28.26 131.234.28.27 131.234.28.28 131.234.28.29 131.234.28.30 131.234.28.31 131.234.28.3" /> -->
+	</config>
+</VMCPI>
+

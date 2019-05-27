@@ -1,0 +1,7 @@
+message PROCESS_DISTRIBUTION  {
+	optional bool RUN_IN_FOREGROUND = 1;
+	required string ID =2;
+	optional string START_PORT_NO = 3;
+	optional string MODULE_TYPE = 4;
+}
+	

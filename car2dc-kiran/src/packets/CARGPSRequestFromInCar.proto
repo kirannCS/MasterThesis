@@ -1,0 +1,3 @@
+message CARGPSREQUESTFROMINCAR {
+	required string REQ = 1;
+}

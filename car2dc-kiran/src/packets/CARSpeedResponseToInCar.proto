@@ -1,0 +1,5 @@
+message CARSPEEDRESPONSETOINCAR {
+	required bool CAREXISTS = 1;
+	optional double Speed = 2;
+}
+	

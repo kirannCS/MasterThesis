@@ -1,0 +1,22 @@
+message TEST_DATA {
+	optional string DATALINE1 = 1;
+	optional string DATALINE2 = 2;
+	optional string ID = 3;
+	optional double X = 4;
+	optional double Y = 5;
+	optional double DIR = 6;
+	optional double SPEED = 7;
+	optional string DATATYPE = 8;
+	optional string TIMESTAMP = 9;
+	optional string CH = 10;
+	optional string CMLIST = 11;
+	optional string CLUSTERID = 12;
+	optional int64 CLUSTER_SEQ_NUM = 13;
+	optional string FILENAME = 14;
+	optional bytes DATA = 15;
+	optional int64 CHUNKNUM = 16;
+	optional bool LASTPKT = 17;
+	optional bytes START_TIME = 18;
+	optional string Dest_ID = 19;
+}
+

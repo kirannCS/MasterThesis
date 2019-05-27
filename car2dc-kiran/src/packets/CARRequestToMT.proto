@@ -1,0 +1,4 @@
+message CARREQUESTTOMT {
+	required string VID = 1;
+	required string REQ = 2;
+}

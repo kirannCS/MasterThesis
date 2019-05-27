@@ -1,0 +1,14 @@
+
+import "BigData.proto";
+
+message MSGFROMNODETOUDM {
+	optional string MTYPE = 1;
+	optional string SRC_ID = 2;
+	optional ALLDATA DATA = 3;
+	optional string DEST_ID = 4;
+	optional string IP = 5;
+	optional string PORT = 6;
+	optional string SRC_TYPE = 7;
+	optional string DATATYPE = 8;
+	optional string SUB_DEST_ID = 9;
+}
